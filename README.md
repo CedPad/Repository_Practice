@@ -1,31 +1,62 @@
-# My Cybersecurity Activities in NetworkWalks
- Week 1: Set-up VM for Kali Linux and Windows
- 
- 1. :white_square_button: Created a VM for Kali Linux and Windows.
-    
-   :sparkles: <img width="450" height="214" alt="image" src="https://github.com/user-attachments/assets/51025c14-5b4b-4389-97b0-7a49fa13c8ab" />
-    :sparkles:
+# 🛡️ My Cybersecurity Activities – NetworkWalks
 
- 2. :white_square_button: Configured each VM to be in the same network.
-    
-    <img width="450" height="67" alt="image" src="https://github.com/user-attachments/assets/92060001-36c4-4b6d-8575-9bd5f6da330f" />  :sparkles:
+This repository documents my hands-on learning journey in **cybersecurity, networking, and virtual machine configuration** through NetworkWalks. It showcases the activities, practical exercises, and skills I develop along the way.
 
- 3. :white_square_button: Configured each VM with their designated IP addresses.
+## 📅 Week 1: Virtual Machine Setup and Network Configuration
 
-    <img width="450" height="230" alt="image" src="https://github.com/user-attachments/assets/4b80ad62-12fc-4c82-92a4-cf1c0f620684" /> ✨
+**Objective:** Set up Kali Linux and Windows virtual machines, configure them to communicate within the same network, and verify their connectivity.
 
- 4. 🔳 Test connectivity of each VM.
+### 1. 💻 Virtual Machine Creation
 
-   ✔️Windows to Kali Linux
-   
-   <img width="450" height="244" alt="image" src="https://github.com/user-attachments/assets/2a93e094-603e-46d3-8ba1-acf689dc71ed" /> ✨
+- Created two virtual machines using virtualization software:
+  - Kali Linux
+  - Windows
 
-   ✔️ Kali Linux to Windows
+![Virtual Machine Setup](https://github.com/user-attachments/assets/51025c14-5b4b-4389-97b0-7a49fa13c8ab)
 
-   <img width="450" height="174" alt="image" src="https://github.com/user-attachments/assets/991b7a7c-00ff-4bd0-b28c-edc1e2554272" /> ✨
-   
- 5. 🔳 Ready for the next one. 🥳
+### 2. 🌐 Network Configuration
 
+- Configured both virtual machines to use the same virtual network.
+- Ensured that both systems could communicate with each other.
+
+![Network Configuration](https://github.com/user-attachments/assets/92060001-36c4-4b6d-8575-9bd5f6da330f)
+
+### 3. 🔧 IP Address Configuration
+
+- Assigned designated IP addresses to each virtual machine.
+- Verified the network configuration to ensure both systems were on the same subnet.
+
+![IP Address Configuration](https://github.com/user-attachments/assets/4b80ad62-12fc-4c82-92a4-cf1c0f620684)
+
+### 4. 🔗 Network Connectivity Testing
+
+Tested communication between the two virtual machines using the `ping` command.
+
+**Windows → Kali Linux**
+
+![Windows to Kali Linux](https://github.com/user-attachments/assets/2a93e094-603e-46d3-8ba1-acf689dc71ed)
+
+**Kali Linux → Windows**
+
+![Kali Linux to Windows](https://github.com/user-attachments/assets/991b7a7c-00ff-4bd0-b28c-edc1e2554272)
+
+**Result:** Successfully verified network connectivity between the two virtual machines.
+
+### 5. 🎯 Week 1 Completion
+
+<badge>Completed</badge>
+
+Successfully created and configured both virtual machines, assigned their IP addresses, and established communication between Kali Linux and Windows.
+
+**Skills Practiced:**
+- Virtual Machine Setup
+- Kali Linux and Windows Configuration
+- Basic Networking
+- IP Address Configuration
+- Network Connectivity Testing
+- Using the `ping` Command
+
+🚀 **Ready for the next cybersecurity activity!**
      
 
 
