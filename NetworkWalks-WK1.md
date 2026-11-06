@@ -1,4 +1,4 @@
-# 🛡️ My Cybersecurity Activities – NetworkWalks
+# 🛡️ My Cybersecurity Activity Week 1 – NetworkWalks
 
 This repository documents my hands-on learning journey in **cybersecurity, networking, and virtual machine configuration** through NetworkWalks. It showcases the activities, practical exercises, and skills I develop along the way.
 
