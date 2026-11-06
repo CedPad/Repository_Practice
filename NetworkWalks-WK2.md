@@ -1,1 +1,1 @@
-Activity for Week 2
+# 🛡️ My Cybersecurity Activity Week 2 – NetworkWalks
