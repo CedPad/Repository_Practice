@@ -9,7 +9,7 @@
 | **Pentester Name** | Cedrick Zion K. Padonga |
 | **Program / Batch** | B084 - Networkwalks |
 | **Date** | 9 October 2025 |
-| **Modules Completed** | `W2-PM4` (theHarvester)<br>`W2-PM5` (Zenmap Scanning)<br>`W2-PM-FINAL`(Penetration Testing Report) |
+| **Modules Completed** | `W2-PM4` (theHarvester)<br>`W2-PM5` (Zenmap Scanning)<br>`W2-PM-FINAL` (Penetration Testing Report) |
 | **Client / Target** | 1. `microsoft.com` (Passive OSINT only)<br>2. Local LAN Network (`192.168.5.0/24`) |
 | **Permission Secured?** | Yes (Authorized lab scope & personal network) |
 | **Phases Covered** | **Phase 1:** Reconnaissance & Footprinting with theHarvester<br>**Phase 2:** Scanning & Network Discovery with Zenmap<br>**Phase 3:** Risk Analysis and Potential Impact <br> **Phase 4:** Recommendations <br>**Phase 5:** Conclusion<br>**Phase 6:** Evidenece Collected |
