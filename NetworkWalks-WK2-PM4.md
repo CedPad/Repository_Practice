@@ -45,6 +45,53 @@ The table below lists each tool used in this report and its purpose.
 ### 4.1 Footprinting & Reconnaissance (`W2-PM4`)
 I performed passive reconnaissance against the `microsoft.com` domain using **theHarvester** in Kali Linux to gather public information—including emails, subdomains, hosts, employee names, open ports, and banners—from search engines, PGP key servers, and public databases.
 
+### 🔍 Interactive Task Walkthrough (`theHarvester`)
+
+Click on each task below to expand the command breakdown, key findings, and terminal screenshot evidence.
+
+<details open>
+<summary><strong>📌 Task 1: Targeted Search via Baidu (<code>-b baidu</code>)</strong></summary>
+<br>
+
+In the terminal window, I executed the following command to query **Baidu** for up to 1,000 results targeting `microsoft.com`:
+
+```bash
+theHarvester -d microsoft.com -l 1000 -b baidu
+```
+
+* **Observed Output:** Returned **1 email pattern** (`*@microsoft.com`) with 0 IPs, people, or hosts listed.
+* **Evidence Screenshot:**
+
+<p align="center">
+  <img width="450" alt="theHarvester Baidu Scan Evidence" src="https://github.com/user-attachments/assets/b49ace2a-7658-4130-add1-d813ab866c3b" />
+</p>
+
+</details>
+
+---
+
+<details>
+<summary><strong>📌 Task 2: Broad Multi-Source Search (<code>-b all</code>)</strong></summary>
+<br>
+
+In the terminal window, I executed the following command to query **all available data sources** with a limit of 50 results per source:
+
+```bash
+theHarvester -d microsoft.com -l 50 -b all
+```
+
+* **Observed Output:** Aggregated varying sets of IP addresses, subdomains, and hosts across multiple public sources and certificate logs on each run.
+* **Evidence Screenshot:**
+
+<p align="center">
+  <img width="600" alt="theHarvester All Sources Scan Evidence" src="https://github.com/user-attachments/assets/19a09dac-edaa-42d3-8807-ae9effc9a033" />
+</p>
+
+</details>
+
+
+---
+
 * **Commands Executed:**
   ```bash
   theHarvester -d microsoft.com -l 1000 -b baidu
@@ -118,11 +165,11 @@ These exercises showed me that information gathering is a critical first step in
 
 ---
 
-<img width="836" height="842" alt="theHarvester Scan Evidence 2" src="https://github.com/user-attachments/assets/661b385b-cacf-4ef4-8eb0-0b8932f216e7" />
+<img width="800" height="483" alt="image" src="https://github.com/user-attachments/assets/19a09dac-edaa-42d3-8807-ae9effc9a033" />
 
 ### Zenmap Network Scan & Topology Evidence
 
-<img width="746" height="747" alt="image" src="https://github.com/user-attachments/assets/a92f6628-fce2-4a70-8965-21d89baca0af" />
+<img width="746" height="747" alt="image" src="https://github.com/user-attachments/assets/cbe9cc20-d5bb-4859-8bf5-3bdfe42bd170" />
 
 ---
 
