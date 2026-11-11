@@ -107,7 +107,16 @@ theHarvester -d microsoft.com -l 50 -b all
 For the second activity, I used **Zenmap** to perform network discovery on my local network. The practical required identifying my local IP address and subnet, discovering live hosts, recording their IP and MAC addresses, and generating a visual network topology.
 
 1. **Identify Local Network:** Ran `ipconfig` in Windows CMD to determine my local IP address and LAN subnet.
+
+<p align="center">
+<img width="400" height="450" alt="image" src="https://github.com/user-attachments/assets/eca18ca8-4033-4d5e-81f8-c90bef16f735" />
+</p>
+  
 2. **Host Discovery:** Entered the local subnet into Zenmap and executed a **Ping Scan** (`nmap -sn`) to identify active devices.
+
+<p align="center"> 
+<img width="500" height="113" alt="image" src="https://github.com/user-attachments/assets/2f3fd444-fa5d-4674-8cd7-b733b121721b" />
+</p>
 
 * **How many hosts are live in your subnet?**
   * There are **5 live hosts** (including my host PC) discovered in **11.8 seconds**.
