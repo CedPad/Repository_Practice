@@ -116,10 +116,17 @@ These exercises showed me that information gathering is a critical first step in
 ### theHarvester Output Evidence
 <img width="836" height="842" alt="theHarvester Scan Evidence 1" src="https://github.com/user-attachments/assets/b49ace2a-7658-4130-add1-d813ab866c3b" />
 
+---
+
 <img width="836" height="842" alt="theHarvester Scan Evidence 2" src="https://github.com/user-attachments/assets/661b385b-cacf-4ef4-8eb0-0b8932f216e7" />
 
 ### Zenmap Network Scan & Topology Evidence
-<img width="800" height="483" alt="Zenmap Network Scan Evidence" src="https://github.com/user-attachments/assets/448c9db3-d23d-48b1-8dd1-437969791d14" />
+
+<img width="746" height="747" alt="image" src="https://github.com/user-attachments/assets/a92f6628-fce2-4a70-8965-21d89baca0af" />
+
+---
+
+<img width="774" height="592" alt="image" src="https://github.com/user-attachments/assets/7b787444-f78f-4309-b630-a3c3ff133fce" />
 
 ---
 
