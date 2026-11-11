@@ -87,6 +87,8 @@ theHarvester -d microsoft.com -l 50 -b all
   <img width="600" alt="theHarvester All Sources Scan Evidence" src="https://github.com/user-attachments/assets/19a09dac-edaa-42d3-8807-ae9effc9a033" />
 </p>
 
+* 📄 **Raw Output:** [View theHarvester XML Report](./harvest_report.xml)
+
 </details>
 
 
