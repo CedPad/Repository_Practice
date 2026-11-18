@@ -13,7 +13,7 @@ The task is to crack the password of the following pdf files.
 
 ## 📚 Supporting Documents
 
-| Document | |
+| Document ||
 |---|---|
 | [Lab 01 - Network Fundamentals](Documents/My-Locked-PDF1.pdf) | 
 | [Lab 02 - Wireshark Analysis](Documents/My-Locked-PDF2.pdf) | 
@@ -40,4 +40,24 @@ I type the passwords in each of the pdf file to know the content
 Content of one pdf file.
 
 <img width="600" height="500" alt="image" src="https://github.com/user-attachments/assets/1bfb312f-b44d-4073-a273-48ccb740f5bd" />
+
+## Using NetworWalks Tool for Password Cracking
+
+Step 1. Use Hash Calculator to extract the file hash.
+
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/56789d6f-7872-4e98-83d0-e968f51d422a" />
+
+Step 2. Then copy and paste the hash to the Password Cracker tool by NetworkWalks.
+
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/f2a75a70-7bb4-459a-a37b-fd1a59106bb4" />
+
+Step 3. Start Cracking.
+
+My Locked PDF3 File Result:
+
+<img width="500" height="450" alt="image" src="https://github.com/user-attachments/assets/1d0ddb82-dd55-4913-b9f0-2409ad4626ba" />
+
+My Locked PDF1 File Result:
+
+<img width="500" height="450" alt="image" src="https://github.com/user-attachments/assets/5f2d603f-0e00-4687-9d7a-d477898a9a19" />
 
