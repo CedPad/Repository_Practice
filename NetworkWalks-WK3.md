@@ -11,7 +11,13 @@ On this Activity I'm going to use **Johnny**
 
 The task is to crack the password of the following pdf files.
 
-📁 
+## 📚 Supporting Documents
+
+| Document | |
+|---|---|
+| [Lab 01 - Network Fundamentals](Documents/My-Locked-PDF1.pdf) | 
+| [Lab 02 - Wireshark Analysis](Documents/My-Locked-PDF2.pdf) | 
+| [Lab 03 - Network Investigation](Documents/My-Locked-PDF3.pdf) | 
 
 Before we can crack the files of the documents we need to extract the **hash** of the pdf files.
 
