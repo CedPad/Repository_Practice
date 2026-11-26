@@ -132,10 +132,7 @@ The evidence indicates that confidential PDF documents could be accessed through
 The retrieved documents contained sensitive patient information, including personal details and laboratory results.
 
 ### 📸 Evidence
-
 - Patient PDF reports were retrieved during the initial access milestone.
-- Screenshots in the sample report document the recovered files.
-- The report also shows restricted patient-related paths returning access-denied responses in some cases.
 
 ### 💥 Impact
 
@@ -143,17 +140,12 @@ If exploited by an unauthorised individual, this weakness could result in:
 
 - 🏥 Exposure of confidential patient information.
 - 🔒 Violation of patient privacy.
-- 📉 Reputational damage.
-- ⚖️ Potential legal and regulatory consequences.
-- 🤝 Loss of trust in the organisation.
 
 ### 🛠️ Recommendation
 
 - Store confidential documents outside publicly accessible web directories.
 - Enforce authentication and authorisation before serving patient files.
 - Use server-side access controls for every document request.
-- Avoid relying on hidden URLs or directory names as a security measure.
-- Review access logs for unauthorised document retrieval.
 
 ---
 
@@ -167,12 +159,10 @@ The retrieved PDF laboratory reports were encrypted and required passwords to op
 
 During the authorised exercise, password recovery techniques were used to demonstrate that the protection applied to the files could be defeated using a limited password list.
 
-The sample report contains screenshots showing successful password recovery for two patient PDF files.
-
 ### 📸 Evidence
 
 - PDF password hashes were extracted for testing.
-- Password recovery was performed using a wordlist-based approach.
+- Password recovery was performed using the NetworkWalks tool and Jhon the Ripper
 - Successful recovery results were documented in the sample report.
 
 ### 💥 Impact
@@ -182,16 +172,12 @@ Weak PDF passwords may allow an attacker who obtains an encrypted file to recove
 This can lead to:
 
 - 🔓 Exposure of confidential patient records.
-- 🔐 Circumvention of file-level protection.
-- 📂 Increased risk when documents are stored in public or shared locations.
 
 ### 🛠️ Recommendation
 
 - Do not use PDF passwords as the primary access-control mechanism for confidential records.
 - Use strong, unique passwords when file encryption is required.
 - Apply appropriate encryption standards.
-- Store confidential documents in systems with enforced access controls.
-- Avoid predictable passwords and commonly used password patterns.
 
 ---
 
@@ -210,7 +196,6 @@ The sample report includes a screenshot of SQL statements and inserted records, 
 ### 📸 Evidence
 
 - A database backup file was identified in the collected evidence.
-- The backup contained SQL table definitions and data insertion statements.
 - The visible database structure included staff-related fields such as names, job titles, departments, contact information, salary information, and other personal details.
 
 ### 💥 Impact
@@ -222,18 +207,12 @@ Potential consequences include:
 - 👤 Exposure of employee personal information.
 - 💰 Disclosure of salary and organisational information.
 - 🎣 Increased risk of identity theft and targeted phishing.
-- 🏢 Exposure of business-sensitive information.
-- 📉 Serious reputational and operational damage.
 
 ### 🛠️ Recommendation
 
 - Remove database backups from public web directories immediately.
 - Store backups in restricted storage locations.
 - Encrypt backup files using strong encryption.
-- Enforce access controls based on business requirements.
-- Review backup creation and retention procedures.
-- Rotate any credentials or secrets found within exposed backup files.
-- Investigate access logs to determine whether the backup was accessed by unauthorised parties.
 
 ---
 
@@ -245,35 +224,24 @@ Potential consequences include:
 
 The assessment identified a robots.txt file containing entries that referenced restricted or sensitive application paths.
 
-The sample report also documents the discovery of patient-related and staff-related resources through web resource inspection and directory enumeration.
-
-Although robots.txt is intended to guide search engine crawlers, it does not provide access control.
-
 ### 📸 Evidence
 
 The collected screenshots documented:
 
 - Restricted paths listed in robots.txt.
 - Patient and staff-related application paths.
-- Resource discovery results.
-- Access-denied responses when attempting to access certain restricted locations.
 
 ### 💥 Impact
 
 Information disclosed through robots.txt and resource enumeration may help an attacker identify:
 
 - 🔎 Sensitive application areas.
-- 🔐 Authentication endpoints.
 - 📂 Restricted document locations.
-- 🕸️ Potentially exposed legacy resources.
 
 ### 🛠️ Recommendation
 
 - Do not use robots.txt to protect confidential resources.
-- Remove unnecessary sensitive path references from public files.
 - Enforce authentication and authorisation on restricted resources.
-- Review legacy and unused application paths.
-- Ensure directory listing is disabled where it is not required.
 
 ---
 
@@ -304,8 +272,6 @@ This information alone does not confirm a vulnerability, but it may help attacke
 
 - Minimise unnecessary server information in HTTP response headers.
 - Keep server software and security components updated.
-- Review security configurations regularly.
-- Monitor blocked requests and suspicious scanning activity.
 
 </details>
 
@@ -345,17 +311,8 @@ The risk ratings reflect the evidence collected during the authorised training e
 4. 🔑 Rotate credentials or secrets that may have been exposed.
 5. ✅ Confirm that sensitive files are no longer accessible without proper authorisation.
 
-### ⏳ Short-Term Improvements
 
-- Implement proper authentication and server-side authorisation.
-- Store confidential files outside the public web root.
-- Apply strong encryption to backup files.
-- Use strong and unique passwords for encrypted documents.
-- Disable unnecessary directory listing.
-- Remove sensitive path information from public robots.txt files.
-- Review legacy and unused application resources.
-
-### 📅 Long-Term Improvements
+### 📅 Improvements
 
 - Establish a secure backup management policy.
 - Conduct regular vulnerability assessments.
